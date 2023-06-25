@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 
 using namespace std;
@@ -16,7 +16,7 @@ void main()
 	setlocale(LC_ALL, "ru");
 	int n;
 	cin >> n;
-	cout << "ôàêòîðèàë " <<n <<" = " << factorial(n);
+	cout << "Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» " <<n <<" = " << factorial(n);
 
 }
 
@@ -34,11 +34,11 @@ void main()
 {
 	setlocale(LC_ALL, "ru");
 	int a, n;
-	cout << "ââåäèòå ÷èñëî: \n";
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: \n";
 	cin >> a;
-	cout << "ââåäèòå ñòåïåíü: \n";
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ: \n";
 	cin >> n;
-	cout << "ñòåïåíü " << n << " ÷èñëà " << a << "  "<<power(a, n);
+	cout << "ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ " << n << " Ñ‡Ð¸ÑÐ»Ð° " << a << "  "<<power(a, n);
 }
 
 double power(int a, int n)
@@ -47,7 +47,7 @@ double power(int a, int n)
 	//else if (n > 0) 
 	//	return power(a, n - 1) * a;
 	//else 
-	//	return 1/power(a, -n);//ìåíÿåò çíàê íà ïîëîæèòåëüíûé è çàïóñêàåò âåðõíþþ ôóíêöèþ ñ ðåêóðñèåé
+	//	return 1/power(a, -n);//Ð¼ÐµÐ½ÑÐµÑ‚ Ð·Ð½Ð°Ðº Ð½Ð° Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ð¹ Ð¸ Ð·Ð°Ð¿ÑƒÑÐºÐ°ÐµÑ‚ Ð²ÐµÑ€Ñ…Ð½ÑŽÑŽ Ñ„ÑƒÐ½ÐºÑ†Ð¸ÑŽ Ñ Ñ€ÐµÐºÑƒÑ€ÑÐ¸ÐµÐ¹
 	return n == 0 ? 1 : n > 0 ? a * power (a, n - 1) : 1 / power (a, -n);
 }
 #endif POWER
@@ -56,7 +56,7 @@ int main()
 {
 	setlocale(LC_ALL, "ru");
 	long long int n;
-	cout << "ââåäèòå ïðåäåëüíîå ÷èñëî: \n";	cin >> n;
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€ÐµÐ´ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: \n";	cin >> n;
 	fibonacci(n);
 }
 

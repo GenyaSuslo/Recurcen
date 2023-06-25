@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 void PrintField(char field[], const int n);
@@ -14,7 +14,7 @@ void main()
 	PrintField(field, n);
 
 
-	//реализовать функцию void MOVE(???)которая обеспечит ход игрока
+	//СЂРµР°Р»РёР·РѕРІР°С‚СЊ С„СѓРЅРєС†РёСЋ void MOVE(???)РєРѕС‚РѕСЂР°СЏ РѕР±РµСЃРїРµС‡РёС‚ С…РѕРґ РёРіСЂРѕРєР°
 }
 void PrintField(char field[], const int n)
 {
